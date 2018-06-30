@@ -16,9 +16,6 @@ before_install:
 - export DISPLAY=:99.0
 - sh -e /etc/init.d/xvfb start
 install:
-- npm install @ckeditor/ckeditor5-dev-tests
-- ckeditor5-dev-tests-install-dependencies
+- npm install @liasica/ckeditor5-build-classic
 script:
-- ckeditor5-dev-tests-travis
-after_success:
-- ckeditor5-dev-tests-save-revision
+- npm run build
