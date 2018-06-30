@@ -1,0 +1,21 @@
+{
+	"name": "@liasica/ckeditor5-qiniu-uploader",
+	"version": "1.0.0",
+	"description": "Qiniu OSS upload service for ckeditor5.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/liasica/ckeditor5-qiniu-uploader.git"
+	},
+	"author": "liasica",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/liasica/ckeditor5-qiniu-uploader/issues"
+	},
+	"homepage": "https://github.com/liasica/ckeditor5-qiniu-uploader#readme",
+	"dependencies": {
+		"@ckeditor/ckeditor5-core": "^10.1.0",
+		"@ckeditor/ckeditor5-engine": "^10.1.0",
+		"@ckeditor/ckeditor5-upload": "^10.0.1"
+	},
+	"scripts": {}
+}
