@@ -74,7 +74,7 @@ npm run build
 
 ### Configure
 
-```
+```js
 {
     qiniuUploader: {
         url: 'your qiniu upload url here',
